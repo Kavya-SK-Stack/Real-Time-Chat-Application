@@ -1,0 +1,14 @@
+MONGO_URI=mongodb+srv://Kavya:kavya2atlas@atlascloud.3mnod.mongodb.net/
+
+
+JWT_SECRET=independendandrepublic
+
+ADMIN_SECRET_KEY=republicindian
+
+NODE_ENV=DEVELOPMENT
+
+CLIENT_URL= frontend URL
+CLOUDINARY_CLOUD_NAME=dnsap0jpm
+# =dnsap0jpm
+CLOUDINARY_API_KEY=727528475599847
+CLOUDINARY_API_SECRET=0ndikZMk87lB7ZEMrCIMDY8u0zc
