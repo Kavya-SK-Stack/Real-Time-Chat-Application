@@ -47,8 +47,13 @@ cloudinary.config({
 
 const app = express();
 const server = createServer(app);
-const io = new Server(server);
-
+const io = new Server(server, {
+  cors: {
+    origin: "https://ourchatappsk.netlify.app",
+    methods: ["GET", "POST"],
+    credentials: true,
+  },
+});
 app.set("io", io);
 
 // Middleware
